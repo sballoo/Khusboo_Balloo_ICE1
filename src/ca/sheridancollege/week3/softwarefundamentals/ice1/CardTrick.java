@@ -14,7 +14,7 @@ import java.util.Scanner;
  * and then asks the user to pick a card and searches the array of cards
  * for the match to the user's card. To be used as starting code in ICE 1
  * @author dancye
- * Modifier: Khusboo Balloo
+ * @Modifier: Khusboo Balloo
  * Student ID :
  * Date: 09 Feb 2021
  */
@@ -46,6 +46,9 @@ public class CardTrick {
         
         //insert code to ask the user for Card value and suit, create their card
         Scanner input = new Scanner(System.in);
+        
+        Card luckyCard = new Card();
+        
         System.out.print("Enter a Card Value (1-13)");
         int cardValue = input.nextInt();
         System.out.print("Enter a suit [Hearts-0,Diamonds-1,Spades-2,Clubs-3]");
